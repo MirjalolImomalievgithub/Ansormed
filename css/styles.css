@@ -6,19 +6,123 @@
 body{
   padding: 0;
   margin: 0;
-font-family: "open sans", "arial", sans-serif;
-font-size: 16px;
-line-height: 1.5;
-color: #444;
-background: #fff;
+  font-family: "open sans", "arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444;
+  background: #fff;
+}
+
+*:focus{
+outline: 2px dotted #de2e54;
+outline-offset: 2px;
 }
 
 /* CONTAINER */
 .container{
-width: 100%;
-max-width: 1160px;
-padding-left: 30px;
-padding-right: 30px;
-margin-left: auto;
-margin-right: auto;
+  width: 100%;
+  max-width: 1160px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* SITE HEADER  */
+.site-header{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.site-header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* SITE LOGO  */
+.site-logo{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #222;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.site-logo:hover{
+  color: #de2e54;
+}
+
+.site-logo:active{
+  opacity: 0.6;
+}
+
+.site-logo-img{
+  margin-right: 16px;
+}
+
+
+/* SITENAV */
+.sitenav{
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sitenav-list{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sitenav-item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.sitenav-link{
+  display: block;
+  color: #222;
+text-decoration: none;
+}
+
+.sitenav-link:hover{
+  color: #de2e54;
+}
+
+.sitenav-link:active{
+  opacity: 0.6;
+}
+
+
+/* MAIN LINK  */
+.main-link{
+  display: inline-block;
+  padding: 10px 22px;
+  border: 2px solid #de2e54;
+  text-decoration: none;
+  border-radius: 8px;
+  color:#fff;
+  background-color:#de2e54;
+  font-family: "open sens condensed", "arial", sans-serif;
+  text-transform: uppercase;
+font-size: 15px;
+letter-spacing: 2px;
+}
+
+.main-link:hover{
+  border-color: #de2e54;
+background-color: #fff;
+color: #de2e54;
+}
+
+.main-link:active{
+background-color: #de2e54;
+color: #fff;
+opacity: 0.6;
 }
