@@ -62,6 +62,7 @@ outline-offset: 2px;
 
 .site-logo-img{
   margin-right: 16px;
+border-radius: 50%;
 }
 
 
@@ -100,6 +101,7 @@ text-decoration: none;
 }
 
 
+
 /* MAIN LINK  */
 .main-link{
   display: inline-block;
@@ -125,4 +127,39 @@ color: #de2e54;
 background-color: #de2e54;
 color: #fff;
 opacity: 0.6;
+}
+
+
+/* SITE FOOTER  */
+.site-footer{
+  padding-bottom: 24px;
+  padding-top: 24px;
+  background-color: #222;
+  color: #fff;
+}
+
+.site-footer-container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.site-logo-site-footer{
+  color: #fff;
+  }
+
+  .site-logo-site-footer:active{
+    color: #fff;
+  }
+
+.sitenav-site-footer .sitenav-link{
+  color: #fff;
+}
+
+.sitenav-site-footer .sitenav-link:hover{
+  color: #de2e54;
+}
+
+.sitenav-site-footer .sitenav-link:active{
+  color: #fff;
 }
