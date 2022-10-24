@@ -111,7 +111,7 @@ text-decoration: none;
   border-radius: 8px;
   color:#fff;
   background-color:#de2e54;
-  font-family: "open sens condensed", "arial", sans-serif;
+  font-family: "open sens condensed", "open sans", "arial", sans-serif;
   text-transform: uppercase;
 font-size: 15px;
 letter-spacing: 2px;
@@ -129,6 +129,51 @@ color: #fff;
 opacity: 0.6;
 }
 
+.main-link-solid:hover{
+border-color: transparent;
+background-color: rgba(222, 46, 84, 0.8);
+color: #fff;
+}
+
+.main-link-solid:active{
+  opacity: 1;
+  background-color: rgba(222, 46, 84, 0.6);
+}
+
+/* HERO  */
+.hero{
+  background-color: #0eb4c1;
+  color: #fff;f
+}
+
+.hero-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-content{
+  width: 500px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.hero-heading{
+  margin: 0;
+  margin-bottom: 16px;
+  font-family: "open sans condensed", "arial", sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.hero-text{
+  width: 440px;
+  margin-top: 0;
+  margin-bottom: 36px;
+}
+
+.hero-img{
+ align-self: flex-end;f
+}
 
 /* SITE FOOTER  */
 .site-footer{
