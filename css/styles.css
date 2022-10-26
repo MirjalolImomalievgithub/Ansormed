@@ -14,8 +14,8 @@ body{
 }
 
 *:focus{
-outline: 2px dotted #de2e54;
-outline-offset: 2px;
+  outline: 2px dotted #de2e54;
+  outline-offset: 2px;
 }
 
 /* CONTAINER */
@@ -62,7 +62,7 @@ outline-offset: 2px;
 
 .site-logo-img{
   margin-right: 16px;
-border-radius: 50%;
+  border-radius: 50%;
 }
 
 
@@ -89,7 +89,7 @@ border-radius: 50%;
 .sitenav-link{
   display: block;
   color: #222;
-text-decoration: none;
+  text-decoration: none;
 }
 
 .sitenav-link:hover{
@@ -113,26 +113,26 @@ text-decoration: none;
   background-color:#de2e54;
   font-family: "open sens condensed", "open sans", "arial", sans-serif;
   text-transform: uppercase;
-font-size: 15px;
-letter-spacing: 2px;
+  font-size: 15px;
+  letter-spacing: 2px;
 }
 
 .main-link:hover{
   border-color: #de2e54;
-background-color: #fff;
-color: #de2e54;
+  background-color: #fff;
+  color: #de2e54;
 }
 
 .main-link:active{
-background-color: #de2e54;
-color: #fff;
-opacity: 0.6;
+  background-color: #de2e54;
+  color: #fff;
+  opacity: 0.6;
 }
 
 .main-link-solid:hover{
-border-color: transparent;
-background-color: rgba(222, 46, 84, 0.8);
-color: #fff;
+  border-color: transparent;
+  background-color: rgba(222, 46, 84, 0.8);
+  color: #fff;
 }
 
 .main-link-solid:active{
@@ -143,7 +143,7 @@ color: #fff;
 /* HERO  */
 .hero{
   background-color: #0eb4c1;
-  color: #fff;f
+  color: #fff;
 }
 
 .hero-container{
@@ -172,8 +172,74 @@ color: #fff;
 }
 
 .hero-img{
- align-self: flex-end;f
+  align-self: flex-end;
 }
+
+
+/* INDEX SERVICES */
+.index-services{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.index-service{
+  display: flex;
+  align-items: center;
+}
+
+.index-services-heading{
+  margin-top: 0;
+  margin-bottom: 56px;
+  font-size: 32px;
+  line-height: 1.2;
+  text-align: center;
+  font-family: "open sans condensed", "open sans", "arial", sans-serif;
+  color: #000;
+}
+
+.index-services-list{
+  padding: 0;
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+  width: 864px;
+  list-style: none;
+}
+
+.index-services-item:not(:last-child){
+  margin-bottom: 80px;
+}
+
+.index-service-img{
+width: 200px;
+height: 200px;
+margin-right: 64px;
+border-radius: 24px;
+object-fit: cover;
+box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);;
+}
+
+.index-services-content{
+  width: 600px;
+}
+
+.index-service-title{
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+.index-service-description{
+color: #444;
+margin: 0;
+}
+
+.index-service-actions{
+  display: flex;
+  justify-content: center;
+}
+
 
 /* SITE FOOTER  */
 .site-footer{
@@ -184,18 +250,18 @@ color: #fff;
 }
 
 .site-footer-container{
-display: flex;
-align-items: center;
-justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .site-logo-site-footer{
   color: #fff;
-  }
+}
 
-  .site-logo-site-footer:active{
-    color: #fff;
-  }
+.site-logo-site-footer:active{
+  color: #fff;
+}
 
 .sitenav-site-footer .sitenav-link{
   color: #fff;
